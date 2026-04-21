@@ -60,9 +60,8 @@ export const ICON_MAP = {
 
 export const EDUCATION = {
   institution: 'Kalinga Institute of Industrial Technology',
-  degree: 'B.Tech in Computer Science and Engineering',
+  degree: 'B. Tech in CSE',
   duration: '2023 – 2027',
-  cgpa: '8.67 / 10',
 };
 
 export const EXPERIENCE = {

@@ -46,10 +46,6 @@ export default function Education() {
                 </span>
               </div>
               <p className="text-muted text-sm md:text-base mb-4">{EDUCATION.degree}</p>
-              <div className="flex items-center gap-2">
-                <span className="text-xs text-muted uppercase tracking-wider">CGPA</span>
-                <span className="text-lg font-semibold text-accent2 text-glow-cyan">{EDUCATION.cgpa}</span>
-              </div>
             </div>
           </div>
 
