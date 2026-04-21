@@ -123,7 +123,7 @@ export default function Hero() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1.5 }}
-          className="flex items-center justify-center gap-5"
+          className="flex items-center justify-center gap-5 relative z-50"
         >
           {socials.map((s) => (
             <a
@@ -133,7 +133,7 @@ export default function Hero() {
               rel="noopener noreferrer"
               data-hover
               className="w-11 h-11 rounded-full glass flex items-center justify-center text-muted
-                         hover:text-accent hover:shadow-[0_0_20px_rgba(108,99,255,0.4)] transition-all duration-300 hover:scale-110"
+                         hover:text-accent hover:shadow-[0_0_20px_rgba(108,99,255,0.4)] transition-all duration-300 hover:scale-110 relative z-50"
             >
               <s.icon className="text-lg" />
             </a>
@@ -146,7 +146,7 @@ export default function Hero() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 2 }}
-        className="absolute bottom-8 left-1/2 -translate-x-1/2 z-[2] flex flex-col items-center gap-2"
+        className="absolute bottom-8 left-1/2 -translate-x-1/2 z-[2] flex flex-col items-center gap-2 pointer-events-none"
       >
         <span className="text-muted text-xs tracking-widest uppercase">Scroll</span>
         <motion.div

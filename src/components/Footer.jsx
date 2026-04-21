@@ -15,7 +15,7 @@ export default function Footer() {
           Built by <span className="text-text font-medium">Akshat Pandey</span> &copy; 2025
         </p>
 
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-4 relative z-50">
           {socials.map((s, i) => (
             <a 
               key={i} 
@@ -23,7 +23,7 @@ export default function Footer() {
               target="_blank" 
               rel="noopener noreferrer"
               data-hover
-              className="w-10 h-10 rounded-full bg-surface border border-glass-border flex items-center justify-center text-muted hover:text-accent hover:border-accent transition-colors"
+              className="w-10 h-10 rounded-full bg-surface border border-glass-border flex items-center justify-center text-muted hover:text-accent hover:border-accent transition-colors relative z-50"
             >
               <s.icon className="text-sm" />
             </a>

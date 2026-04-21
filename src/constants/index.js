@@ -9,8 +9,8 @@ import {
 
 export const SOCIAL_LINKS = {
   github: 'https://github.com/akshatp1811',
-  linkedin: 'https://linkedin.com/in/akshat-pandey-kiit',
-  instagram: 'https://instagram.com/akshatpandey',
+  linkedin: 'https://www.linkedin.com/in/akshat-pandey-6a0856207/',
+  instagram: 'https://www.instagram.com/aks_h_at/',
   email: 'akshatpanday28@gmail.com',
   phone: '8299231964',
 };
